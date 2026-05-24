@@ -2952,6 +2952,94 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 202.565 19.05)
+		(end 274.955 161.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1e065d3a-717c-4b7f-b63c-bc79b6aa8bb6")
+	)
+	(rectangle
+		(start 19.05 17.78)
+		(end 116.84 73.025)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "64ab96c9-d6d9-48de-bbb3-90f5eb46e950")
+	)
+	(rectangle
+		(start 78.105 74.93)
+		(end 186.69 129.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c7845b77-074a-4aea-8bef-c587b57332dd")
+	)
+	(rectangle
+		(start 15.24 136.525)
+		(end 175.26 194.945)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f26a4664-9740-45c6-bc7f-5dda47002537")
+	)
+	(text "ESD Protection\n"
+		(exclude_from_sim no)
+		(at 157.734 192.532 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "00b18aaa-0794-4a3e-9f98-019a2e278b59")
+	)
+	(text "Main IC\n"
+		(exclude_from_sim no)
+		(at 86.106 127.762 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "9a58cb8a-f6ca-408e-bb5f-5faccec35ee9")
+	)
+	(text "Downstream Ports\n"
+		(exclude_from_sim no)
+		(at 256.54 158.496 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "be933a64-41e9-4b38-b2ed-8d619f4bc198")
+	)
+	(text "Upstream USB-C\n"
+		(exclude_from_sim no)
+		(at 99.568 70.866 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cd8aa412-f578-426d-9e90-fef0d87a52a0")
+	)
 	(junction
 		(at 218.44 115.57)
 		(diameter 0)
@@ -5030,7 +5118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1406edf8-2229-4cb3-a653-71482bfc3861")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 105.918 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +5182,7 @@
 		(instances
 			(project "HexaHubV2"
 				(path "/9ae80488-f324-4720-8c95-5616f62f6793"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6933,7 +7021,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 236.22 27.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,7 +7345,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 234.95 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +7946,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 234.95 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +8016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b1278ef-8f6b-4795-a04a-33144dc0c7f5")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 100.838 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7990,7 +8078,7 @@
 		(instances
 			(project "HexaHubV2"
 				(path "/9ae80488-f324-4720-8c95-5616f62f6793"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0c5e295-b504-43ee-9246-af65907964e2")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 97.028 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8234,7 +8322,7 @@
 		(instances
 			(project "HexaHubV2"
 				(path "/9ae80488-f324-4720-8c95-5616f62f6793"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8561,7 +8649,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ccccf92b-1a8c-40fb-824d-55a22ddb3df5")
 		(property "Reference" "#PWR01"
 			(at 31.75 74.93 0)
@@ -8575,7 +8662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 73.66 0)
+			(at 31.75 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9209,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 236.22 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,7 +9366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6fba43-5a6f-463d-a0bf-19075c528a01")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 100.584 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +9428,7 @@
 		(instances
 			(project "HexaHubV2"
 				(path "/9ae80488-f324-4720-8c95-5616f62f6793"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)

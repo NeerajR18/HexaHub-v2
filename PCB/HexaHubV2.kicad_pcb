@@ -93,7 +93,7 @@
 		(at 146 137 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 0 2 180)
 			(layer "F.SilkS")
 			(uuid "a6da069d-6a29-46a8-b162-7351fab4fe17")
@@ -505,7 +505,7 @@
 		(at 140 133.75 180)
 		(descr "<b>Small Outline package</b> 150 mil")
 		(property "Reference" "U1"
-			(at -6.096 0 0)
+			(at -7 0 0)
 			(layer "F.SilkS")
 			(uuid "f0caad0b-012e-45af-a19c-b10c80e44517")
 			(effects
@@ -1159,7 +1159,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "f5bbf561-cdb0-4a73-8ef3-c7cc168f96ed")
@@ -1306,7 +1306,7 @@
 		(at 142 140.725 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at -3.775 0 90)
 			(layer "F.SilkS")
 			(uuid "2a55bf70-24bb-4007-9385-437c970d1094")
@@ -3624,7 +3624,7 @@
 		(at 143.5 140 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 3 0 90)
 			(layer "F.SilkS")
 			(uuid "b1a8a19e-3eb6-4b5c-88b7-874a9a956573")
@@ -4047,7 +4047,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "8859f09f-34f4-4de6-90c9-dfa5aa53a300")
@@ -6367,7 +6367,7 @@
 		(at 140.25 140.75 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at -3.75 0 90)
 			(layer "F.SilkS")
 			(uuid "abdd77ce-02c8-4d21-ae15-5c7ac9497dd1")
@@ -6538,7 +6538,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "70d18093-24a1-43b7-84e8-2777f53cbfa5")
@@ -7272,7 +7272,7 @@
 				)
 			)
 		)
-		(property "Value" "2A"
+		(property "Value" "500mA"
 			(at 0 1.829999 90)
 			(layer "F.Fab")
 			(uuid "b4df7f66-57d2-4ace-ba6e-09a222787cf4")
