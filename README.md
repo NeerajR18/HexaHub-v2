@@ -1,3 +1,5 @@
+<img width="720" height="1104" alt="Zine" src="https://github.com/user-attachments/assets/13b83ce3-e70f-47e5-935b-8590749b3c1d" />
+
 # HexaHub-v2
 
 NOTE: This is still a WIP project. Follow at your own risk!
@@ -6,7 +8,7 @@ A USB 2.0 Hub using the SL2.1A which has 4 downstream USB-A port and USB-C upstr
 
 This USB Hub was made because of unavailability of the SL2.1S IC, which was used in the previous version and also as an improved version with polyfuses and ESD protection diodes.
 
-This Hub waas designed using KiCad and Autodesk Fusion for PCB and CAD Design. Blender was used for the PCB renders (to be added)
+This Hub was designed using KiCad and Autodesk Fusion for PCB and CAD Design. Fusion was also used for the case renders.
 
 Made for Hack Club Fallout.
 
@@ -16,11 +18,10 @@ Made for Hack Club Fallout.
 <img width="1159" height="826" alt="image" src="https://github.com/user-attachments/assets/c0528142-8e69-4364-a212-0df91dc4e0fd" />
 
 - PCB without Ground Plane
-<img width="1012" height="594" alt="image" src="https://github.com/user-attachments/assets/77f7995d-eed0-468d-beef-ff8348a01555" />
+<img width="983" height="600" alt="image" src="https://github.com/user-attachments/assets/b5181329-2cee-4c58-9fd5-36b3414c4926" />
 
 - Overall PCB
-<img width="1074" height="653" alt="image" src="https://github.com/user-attachments/assets/f927ab80-432e-475e-bd9e-5dffe70a4708" />
-
+<img width="1037" height="641" alt="image" src="https://github.com/user-attachments/assets/8f3a90b3-b7d0-467b-8289-cf1a5da0860d" />
 
 # CAD
 
@@ -31,6 +32,10 @@ Made for Hack Club Fallout.
 <img width="832" height="674" alt="image" src="https://github.com/user-attachments/assets/ac8a5b1e-4998-4d0b-917d-ba2f98b2d712" />
 
 # Renders
+- Enclosed
+<img width="2048" height="1536" alt="HexahubV2_2026-May-25_07-50-50AM-000_CustomizedView698346096" src="https://github.com/user-attachments/assets/0ec75e2d-7d57-4a21-9361-f4d4ceac58f6" />
+- Exploded
+<img width="2048" height="1536" alt="HexahubV2_2026-May-25_08-39-06AM-000_CustomizedView19009070130" src="https://github.com/user-attachments/assets/dae30415-6c82-4f71-a0fb-049ab90b2ba6" />
 
 # Build Guide
 - Acquire your parts from your favourite platform.
@@ -38,6 +43,7 @@ Made for Hack Club Fallout.
 - Solder the components to the PCB
 - 3D print the case, place PCB in the bottom, then close the top.
 - Done!
+If any footprints or 3D models are missing, you may use the footprints, symbols etc. from the Assets folder. Check your project folder and paths before importing.
 
 # Bill of Materials
 
