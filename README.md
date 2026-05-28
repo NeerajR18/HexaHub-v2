@@ -59,5 +59,6 @@ If any footprints or 3D models are missing, you may use the footprints, symbols 
 | RC0603FR-075K1L | R1, R2 | 0603 | 100 | 0.0018 | 0.18 | https://www.lcsc.com/product-detail/C105580.html |
 | CL10A106KP8NNNC | C1, C2, C3, C4, C5, C6 | 0603 | 20 | 0.0108 | 0.22 | https://www.lcsc.com/product-detail/C19702.html |
 | CC0402JRNPO9BN220 | C7, C8 | 0402 | 100 | 0.0012 | 0.12 | https://www.lcsc.com/product-detail/C106203.html |
-
+| JLCPCB(PCB+shipping) | - | - | 5 | 4.66 | 14 | jlcpcb.com
+| Total | - | - | - | 22.76 | - |
 Apart from the IC, you may choose any brand of parts but with same package.
